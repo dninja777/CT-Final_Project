@@ -5,3 +5,20 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+ body {
+  background-color: #116466;
+}
+
+.navbar{
+	background-color:#2C3531;
+}
+
+.navbar-nav > li >  a{
+	color: white;
+}
+
+.thumbnail{
+	background-color: #D9B08C;
+}

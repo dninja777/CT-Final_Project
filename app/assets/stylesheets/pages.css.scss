@@ -31,8 +31,10 @@
 }
 .game-container{
 	background: url(gameBG.jpg);
-	height: 550px;
-    width: 1100px;
+	height: 450px;
+    width: auto;
+    margin-right: 100px;
+    align: center;
 }
 
 .text-uppercase.font-weight-bold {
@@ -58,7 +60,8 @@
     
 }
 .menuContainer{
-	margin-top: 150px;
+	margin-right: 280px;
+    margin-top: 50px;
 }
 
 #page_title{
@@ -83,7 +86,7 @@ button {
     margin-top: 5%;
     margin-bottom: 5%;
     /* margin-left: 5%;
-    margin-right: 5%; */
+    margin-right: 10%; */
     border-radius: 10%;
 }
 

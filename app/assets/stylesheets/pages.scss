@@ -7,32 +7,14 @@
 @import "bootstrap";
 
 
- body {
-  background-color: #501B1D;
-}
-
-.navbar{
-	background-color:#DAA520;
-}
-
-.navbar-default .navbar-brand{
-	color: #ffffff	;
-}
-
-.navbar-default .navbar-nav > li > a{
-	color: white;
-}
-.navbar-dark .navbar-nav .nav-link{
-	color: #ffffff;
-}
-
-.thumbnail{
-	background-color: #D9B08C;
-}
 .game-container{
-	background: url(gameBG.jpg);
-	height: 550px;
+	  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+    
 }
+
 
 
 #body-container {
@@ -41,8 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 260px;
 }
 .body-box {
     width: 100%;
@@ -50,34 +31,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 50%;
     
 }
-.menuContainer{
-	margin-top: 150px;
-}
-
-#page_title{
-	color: #ffffff;
-}
-p{
-	color: #fff
-}
-
 .button {
-    margin-top:2%;
-    margin-bottom: 2%;
+    margin-top:7%;
+    margin-bottom: 7%;
 }
 button {
     font-size: 1.3rem;
     font-family: 'Optimus Princeps';
     font-style: italic;
     color: white;
-    height: 40px;
+    height: 20px;
     background: url(water.jpg);
-    width: 120px;
+    width: 150px;
     margin-top: 5%;
     margin-bottom: 5%;
-    /* margin-left: 5%;
+    /* margin-left: 10%;
     margin-right: 5%; */
     border-radius: 10%;
 }
@@ -87,12 +58,3 @@ button {
 .hidden {
     display:none;
 }
-
-.upper{
-	height: 300px;
-}
-
-.mid{
-	height: 300px;
-}
-

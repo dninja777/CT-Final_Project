@@ -1,10 +1,42 @@
-<h1>Pages#game</h1>
+<h1 id="page_title">Game</h1>
 <p>Find me in app/views/pages/game.html.erb</p>
 
 
 <div class="container">
 <%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
 	<%= react_component('pauseMenu', name: 'play') %>
+
+<div class="game-container">
+	     <div id="body-container" >
+    <div class="body-box">
+    	<div class="menuContainer">
+        <div class="button">
+            <button>Play</button>
+        </div>
+        <div class="button">
+            <button>Game Info</button>
+        </div>
+        <div class="button">
+            <button>Options</button>
+        </div>
+        <div class="button">
+            <button>About</button>
+        </div>
+    </div>
+    <div class="body-box hidden">
+        <div class="button">
+            <button>Create Game</button>
+        </div>
+        <div class="button">
+            <button>Join Game</button>
+        </div>
+        <div class="button">
+            <button>Back</button>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
 
 	
 

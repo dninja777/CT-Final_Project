@@ -1,9 +1,11 @@
 <h1>Pages#game</h1>
 <p>Find me in app/views/pages/game.html.erb</p>
 
-<%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
+
 <div class="container">
-<iframe src="" frameborder="1" width="1000" height="600" align="center">
+<%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
+	<%= react_component('pauseMenu', name: 'play') %>
+
 	
-</iframe>
+
 </div>
